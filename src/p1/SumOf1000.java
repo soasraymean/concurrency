@@ -1,3 +1,5 @@
+package p1;
+
 import java.util.stream.IntStream;
 
 public class SumOf1000 {

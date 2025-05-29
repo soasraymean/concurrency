@@ -1,3 +1,5 @@
+package p1;
+
 public class ThreadStates {
     public static void main(String[] args) throws InterruptedException {
 
