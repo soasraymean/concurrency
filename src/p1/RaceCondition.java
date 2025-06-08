@@ -27,11 +27,11 @@ public class RaceCondition {
     private static Thread createThread(int increment) {
         return new Thread(() -> IntStream.range(0, increment).forEach(i -> {
 
-            synchronized (RaceCondition.class) {
-                counter++;
-            }
+//            synchronized (RaceCondition.class) {
+//                counter++;
+//            }
 
-//            increaseCounter();
+            increaseCounter();
         }));
     }
 
